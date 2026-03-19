@@ -3,7 +3,7 @@
     <img width="1280" height="192" alt="DeclareUI" src="https://github.com/user-attachments/assets/44918531-3b1b-4ace-bca0-db0ea99f8bc8#gh-dark-mode-only" />
 </p>
 
-# @declareui/components
+# @declareuihq/components
 
 Official component library — 20+ production-ready UI components declared in YAML, compiled to any framework.
 
@@ -16,7 +16,7 @@ A curated set of commonly-used UI components, declared once in `.ui.yaml` and re
 ## Installation
 
 ```bash
-pnpm add @declareui/components
+pnpm add @declareuihq/components
 ```
 
 ## Available components
@@ -37,7 +37,7 @@ pnpm add @declareui/components
 declareui add button card input
 
 # Or build directly from the library
-declareui build --from @declareui/components --targets react,vue
+declareui build --from @declareuihq/components --targets react,vue
 ```
 
 Each component follows DeclareUI conventions:
@@ -71,9 +71,9 @@ template:
 
 | Package | Description |
 |:--------|:------------|
-| [`@declareui/core`](https://github.com/declare-ui/core) | Parser, AST, and code generators |
-| [`@declareui/tailwind-plugin`](https://github.com/declare-ui/tailwind-plugin) | Tailwind CSS integration |
-| [`@declareui/cli`](https://github.com/declare-ui/cli) | CLI tool |
+| [`@declareuihq/core`](https://github.com/declare-ui/core) | Parser, AST, and code generators |
+| [`@declareuihq/tailwind-plugin`](https://github.com/declare-ui/tailwind-plugin) | Tailwind CSS integration |
+| [`@declareuihq/cli`](https://github.com/declare-ui/cli) | CLI tool |
 
 ## Contributing
 
